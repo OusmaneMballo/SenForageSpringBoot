@@ -1,6 +1,7 @@
 package transfert.transfert.Model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Village {
@@ -9,6 +10,8 @@ public class Village {
     private int id;
     @Column
     private String nom;
+    @OneToMany(mappedBy = "village")
+    private List<Client> clients;
 
     public Village() {
     }
@@ -27,5 +30,13 @@ public class Village {
 
     public void setNom(String nom) {
         this.nom = nom;
+    }
+
+    public List<Client> getClients() {
+        return clients;
+    }
+
+    public void setClients(List<Client> clients) {
+        this.clients = clients;
     }
 }
