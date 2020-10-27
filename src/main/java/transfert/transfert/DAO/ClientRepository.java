@@ -8,7 +8,8 @@ import transfert.transfert.Model.Village;
 import java.util.List;
 
 @Repository
-public interface VillageRepository extends JpaRepository<Village, Integer> {
-    Village findById(int id);
-    Village findByClients(Client client);
+public interface ClientRepository extends JpaRepository<Client, Integer> {
+        public Client findById(int id);
+        public List<Client> findByVillage(Village village);
+
 }
