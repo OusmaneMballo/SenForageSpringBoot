@@ -102,37 +102,5 @@
             </div>
         </div>
     </div>
-<!--
-Created by Ousmane MBALLO.
-User: mballoS
-Date: 09/09/2020
-Time: 01:53
--->
-<!--<script>
-    $(".edit").click(function () {
-        idcaissier=$(this).attr('data-target');
-        $.ajax({
-            contentType: "application/json",
-            url:'/caissier/editcaissier/'+idcaissier,
-            type:'GET',
-            dataType:'json',
-            success:function (data) {
-                $('#frm').hidden=false;
-                $('#button').innerText="Annuler";
-                $('#prenom').val(data.prenom);
-                $('#nom').val(data.nom);
-                $('#nci').val(data.nci);
-                $('#telephone').val(data.telephone);
-                $('#numContrat').val(data.numContrat);
-            },
-            error:function (err) {
-                console.log("Erreur");
-
-            }
-        })
-
-
-    })
-</script>-->
 </body>
 </html>
