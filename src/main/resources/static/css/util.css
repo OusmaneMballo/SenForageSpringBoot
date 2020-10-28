@@ -1,0 +1,952 @@
+/*[ TAILLE DE POLICE ]
+//////////////////////////////////////////////////// /////////
+* /
+. fs-1 { taille de la police : 1 px ;}
+. fs-2 { taille de la police : 2 px ;}
+. fs-3 { taille de la police : 3 px ;}
+. fs-4 { taille de la police : 4 px ;}
+. fs-5 { taille de la police : 5 px ;}
+. fs-6 { taille de la police : 6 px ;}
+. fs-7 { taille de la police : 7 px ;}
+. fs-8 { taille de la police : 8 px ;}
+. fs-9 { taille de la police : 9 px ;}
+. fs-10 { taille de la police : 10 px ;}
+. fs-11 { taille de la police : 11 px ;}
+. fs-12 { taille de la police : 12 px ;}
+. fs-13 { taille de la police : 13 px ;}
+. fs-14 { taille de la police : 14 px ;}
+. fs-15 { taille de la police : 15 px ;}
+. fs-16 { taille de la police : 16 px ;}
+. fs-17 { taille de la police : 17 px ;}
+. fs-18 { taille de la police : 18 px ;}
+. fs-19 { taille de la police : 19 px ;}
+. fs-20 { taille de la police : 20 px ;}
+. fs-21 { taille de la police : 21 px ;}
+. fs-22 { taille de la police : 22 px ;}
+. fs-23 { taille de la police : 23 px ;}
+. fs-24 { taille de la police : 24 px ;}
+. fs-25 { taille de la police : 25 px ;}
+. fs-26 { taille de la police : 26 px ;}
+. fs-27 { taille de la police : 27 px ;}
+. fs-28 { taille de la police : 28 px ;}
+. fs-29 { taille de la police : 29 px ;}
+. fs-30 { taille de la police : 30 px ;}
+. fs-31 { taille de la police : 31 px ;}
+. fs-32 { taille de la police : 32 px ;}
+. fs-33 { taille de la police : 33 px ;}
+. fs-34 { taille de la police : 34 px ;}
+. fs-35 { taille de la police : 35 px ;}
+. fs-36 { taille de la police : 36 px ;}
+. fs-37 { taille de la police : 37 px ;}
+. fs-38 { taille de la police : 38 px ;}
+. fs-39 { taille de la police : 39 px ;}
+. fs-40 { taille de la police : 40 px ;}
+. fs-41 { taille de la police : 41 px ;}
+. fs-42 { taille de la police : 42 px ;}
+. fs-43 { taille de la police : 43 px ;}
+. fs-44 { taille de la police : 44 px ;}
+. fs-45 { taille de la police : 45 px ;}
+. fs-46 { taille de la police : 46 px ;}
+. fs-47 { taille de la police : 47 px ;}
+. fs-48 { taille de la police : 48 px ;}
+. fs-49 { taille de la police : 49 px ;}
+. fs-50 { taille de la police : 50 px ;}
+. fs-51 { taille de la police : 51 px ;}
+. fs-52 { taille de la police : 52 px ;}
+. fs-53 { taille de la police : 53 px ;}
+. fs-54 { taille de la police : 54 px ;}
+. fs-55 { taille de la police : 55 px ;}
+. fs-56 { taille de la police : 56 px ;}
+. fs-57 { taille de la police : 57 px ;}
+. fs-58 { taille de la police : 58 px ;}
+. fs-59 { taille de la police : 59 px ;}
+. fs-60 { taille de la police : 60 px ;}
+. fs-61 { taille de la police : 61 px ;}
+. fs-62 { taille de la police : 62 px ;}
+. fs-63 { taille de la police : 63 px ;}
+. fs-64 { taille de la police : 64 px ;}
+. fs-65 { taille de la police : 65 px ;}
+. fs-66 { taille de la police : 66 px ;}
+. fs-67 { taille de la police : 67 px ;}
+. fs-68 { taille de la police : 68 px ;}
+. fs-69 { taille de la police : 69 px ;}
+. fs-70 { taille de la police : 70 px ;}
+. fs-71 { taille de la police : 71 px ;}
+. fs-72 { taille de la police : 72 px ;}
+. fs-73 { taille de la police : 73 px ;}
+. fs-74 { taille de la police : 74 px ;}
+. fs-75 { taille de la police : 75 px ;}
+. fs-76 { taille de la police : 76 px ;}
+. fs-77 { taille de la police : 77 px ;}
+. fs-78 { taille de la police : 78 px ;}
+. fs-79 { taille de la police : 79 px ;}
+. fs-80 { taille de la police : 80 px ;}
+. fs-81 { taille de la police : 81 px ;}
+. fs-82 { taille de la police : 82 px ;}
+. fs-83 { taille de la police : 83 px ;}
+. fs-84 { taille de la police : 84 px ;}
+. fs-85 { taille de la police : 85 px ;}
+. fs-86 { taille de la police : 86 px ;}
+. fs-87 { taille de la police : 87 px ;}
+. fs-88 { taille de la police : 88 px ;}
+. mr-156 { marge droite : 156 px ;}
+. mr-157 { marge droite : 157 px ;}
+. mr-158 { marge droite : 158 px ;}
+. mr-159 { marge droite : 159 px ;}
+. mr-160 { marge droite : 160 px ;}
+. mr-161 { marge droite : 161 px ;}
+. mr-162 { marge droite : 162 px ;}
+. mr-163 { marge droite : 163 px ;}
+. mr-164 { marge droite : 164 px ;}
+. mr-165 { marge droite : 165 px ;}
+. mr-166 { marge droite : 166 px ;}
+. mr-167 { marge droite : 167 px ;}
+. mr-168 { marge droite : 168 px ;}
+. mr-169 { marge droite : 169 px ;}
+. mr-170 { marge droite : 170 px ;}
+. mr-171 { marge droite : 171 px ;}
+. mr-172 { marge droite : 172 px ;}
+. mr-173 { marge droite : 173 px ;}
+. mr-174 { marge droite : 174 px ;}
+. mr-175 { marge droite : 175 px ;}
+. mr-176 { marge droite : 176 px ;}
+. mr-177 { marge droite : 177 px ;}
+. mr-178 { marge droite : 178 px ;}
+. mr-179 { marge droite : 179 px ;}
+. mr-180 { marge droite : 180 px ;}
+. mr-181 { marge droite : 181 px ;}
+.m-r-182 {margin-right: 182px;}
+.m-r-183 {margin-right: 183px;}
+.m-r-184 {margin-right: 184px;}
+.m-r-185 {margin-right: 185px;}
+.m-r-186 {margin-right: 186px;}
+.m-r-187 {margin-right: 187px;}
+.m-r-188 {margin-right: 188px;}
+.m-r-189 {margin-right: 189px;}
+.m-r-190 {margin-right: 190px;}
+.m-r-191 {margin-right: 191px;}
+.m-r-192 {margin-right: 192px;}
+.m-r-193 {margin-right: 193px;}
+.m-r-194 {margin-right: 194px;}
+.m-r-195 {margin-right: 195px;}
+.m-r-196 {margin-right: 196px;}
+.m-r-197 {margin-right: 197px;}
+.m-r-198 {margin-right: 198px;}
+.m-r-199 {margin-right: 199px;}
+.m-r-200 {margin-right: 200px;}
+.m-r-201 {margin-right: 201px;}
+.m-r-202 {margin-right: 202px;}
+.m-r-203 {margin-right: 203px;}
+.m-r-204 {margin-right: 204px;}
+.m-r-205 {margin-right: 205px;}
+.m-r-206 {margin-right: 206px;}
+.m-r-207 {margin-right: 207px;}
+.m-r-208 {margin-right: 208px;}
+.m-r-209 {margin-right: 209px;}
+.m-r-210 {margin-right: 210px;}
+.m-r-211 {margin-right: 211px;}
+.m-r-212 {margin-right: 212px;}
+.m-r-213 {margin-right: 213px;}
+.m-r-214 {margin-right: 214px;}
+.m-r-215 {margin-right: 215px;}
+.m-r-216 {margin-right: 216px;}
+.m-r-217 {margin-right: 217px;}
+.m-r-218 {margin-right: 218px;}
+.m-r-219 {margin-right: 219px;}
+.m-r-220 {margin-right: 220px;}
+.m-r-221 {margin-right: 221px;}
+.m-r-222 {margin-right: 222px;}
+.m-r-223 {margin-right: 223px;}
+.m-r-224 {margin-right: 224px;}
+.m-r-225 {margin-right: 225px;}
+.m-r-226 {margin-right: 226px;}
+.m-r-227 {margin-right: 227px;}
+.m-r-228 {margin-right: 228px;}
+.m-r-229 {margin-right: 229px;}
+.m-r-230 {margin-right: 230px;}
+.m-r-231 {margin-right: 231px;}
+.m-r-232 {margin-right: 232px;}
+.m-r-233 {margin-right: 233px;}
+.m-r-234 {margin-right: 234px;}
+.m-r-235 {margin-right: 235px;}
+.m-r-236 {margin-right: 236px;}
+.m-r-237 {margin-right: 237px;}
+.m-r-238 {margin-right: 238px;}
+.m-r-239 {margin-right: 239px;}
+.m-r-240 {margin-right: 240px;}
+.m-r-241 {margin-right: 241px;}
+.m-r-242 {margin-right: 242px;}
+.m-r-243 {margin-right: 243px;}
+.m-r-244 {margin-right: 244px;}
+.m-r-245 {margin-right: 245px;}
+.m-r-246 {margin-right: 246px;}
+.m-r-247 {margin-right: 247px;}
+.m-r-248 {margin-right: 248px;}
+.m-r-249 {margin-right: 249px;}
+.m-r-250 {margin-right: 250px;}
+.m-l-r-auto {margin-left: auto;	margin-right: auto;}
+.m-l-auto {margin-left: auto;}
+.m-r-auto {margin-right: auto;}
+
+
+
+/*[ TEXT ]
+///////////////////////////////////////////////////////////
+*/
+/* ------------------------------------ */
+.text-white {color: white;}
+.text-black {color: black;}
+
+.text-hov-white:hover {color: white;}
+
+/* ------------------------------------ */
+.text-up {text-transform: uppercase;}
+
+/* ------------------------------------ */
+.text-center {text-align: center;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-middle {vertical-align: middle;}
+
+/* ------------------------------------ */
+.lh-1-0 {line-height: 1.0;}
+.lh-1-1 {line-height: 1.1;}
+.lh-1-2 {line-height: 1.2;}
+.lh-1-3 {line-height: 1.3;}
+.lh-1-4 {line-height: 1.4;}
+.lh-1-5 {line-height: 1.5;}
+.lh-1-6 {line-height: 1.6;}
+.lh-1-7 {line-height: 1.7;}
+.lh-1-8 {line-height: 1.8;}
+.lh-1-9 {line-height: 1.9;}
+.lh-2-0 {line-height: 2.0;}
+.lh-2-1 {line-height: 2.1;}
+.lh-2-2 {line-height: 2.2;}
+.lh-2-3 {line-height: 2.3;}
+.lh-2-4 {line-height: 2.4;}
+.lh-2-5 {line-height: 2.5;}
+.lh-2-6 {line-height: 2.6;}
+.lh-2-7 {line-height: 2.7;}
+.lh-2-8 {line-height: 2.8;}
+.lh-2-9 {line-height: 2.9;}
+
+
+
+
+
+/*[ SHAPE ]
+///////////////////////////////////////////////////////////
+*/
+
+/*[ Display ]
+-----------------------------------------------------------
+*/
+.dis-none {display: none;}
+.dis-block {display: block;}
+.dis-inline {display: inline;}
+.dis-inline-block {display: inline-block;}
+.dis-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*[ Position ]
+-----------------------------------------------------------
+*/
+.pos-relative {position: relative;}
+.pos-absolute {position: absolute;}
+.pos-fixed {position: fixed;}
+
+/* [flottant]
+  -------------------------------------------------- ---------
+  */
+. float-l { float : left;}
+. float-r { float : right;}
+
+
+/*[ Largeur hauteur ]
+-------------------------------------------------- ---------
+* /
+. sizefull {
+	largeur : 100 % ;
+	hauteur : 100 % ;
+}
+. w-full { largeur : 100 % ;}
+. h-full { hauteur : 100 % ;}
+. max-w-full { max-width : 100 % ;}
+.max-h-full {max-height: 100%;}
+.min-w-full {min-width: 100%;}
+.min-h-full {min-height: 100%;}
+
+/*[ Top Bottom Left Right ]
+-----------------------------------------------------------
+*/
+.top-0 {top: 0;}
+.bottom-0 {bottom: 0;}
+.left-0 {left: 0;}
+.right-0 {right: 0;}
+
+.top-auto {top: auto;}
+.bottom-auto {bottom: auto;}
+.left-auto {left: auto;}
+.right-auto {right: auto;}
+
+
+/*[ Opacity ]
+-----------------------------------------------------------
+*/
+.op-0-0 {opacity: 0;}
+.op-0-1 {opacity: 0.1;}
+.op-0-2 {opacity: 0.2;}
+.op-0-3 {opacity: 0.3;}
+. op-0-4 { opacité : 0,4 ;}
+. op-0-5 { opacité : 0,5 ;}
+. op-0-6 { opacité : 0,6 ;}
+. op-0-7 { opacité : 0,7 ;}
+. op-0-8 { opacité : 0,8 ;}
+. op-0-9 { opacité : 0,9 ;}
+. op-1-0 { opacité : 1 ;}
+
+/*[ Contexte ]
+-------------------------------------------------- ---------
+* /
+. bgwhite { couleur de fond : blanc;}
+. bgblack { couleur de fond : noir;}
+
+
+
+/ * [Wrap Picture]
+-------------------------------------------------- ---------
+* /
+. wrap-pic-w  img { largeur : 100 % ;}
+. wrap-pic-max-w  img { largeur-max : 100 % ;}
+
+/ * ------------------------------------ * /
+. wrap-pic-h  img { hauteur : 100 % ;}
+. wrap-pic-max-h  img { hauteur-max : 100 % ;}
+
+/ * ------------------------------------ * /
+. wrap-pic-cir {
+	rayon de la frontière : 50 % ;
+	débordement : caché;
+}
+. wrap-pic-cir  img {
+	largeur : 100 % ;
+}
+
+
+
+/ * [Survolez]
+-------------------------------------------------- ---------
+* /
+. hov-pointer : hover { curseur : pointeur;}
+
+/ * ------------------------------------ * /
+. hov-img-zoom {
+	affichage : bloc;
+	débordement : caché;
+}
+. hov-img-zoom  img {
+	largeur : 100 % ;
+	-webkit-transition : tous les 0,6 s ;
+    -o-transition : tous les 0,6 s ;
+    -moz-transition : tous les 0,6 s ;
+    transition : tous les 0,6 s ;
+}
+. hov-img-zoom : hover  img {
+	-webkit-transform : échelle ( 1.1 );
+  	-moz-transform : échelle ( 1.1 );
+  	-ms-transform : échelle ( 1.1 );
+  	-o-transformée : échelle ( 1.1 );
+	transformer : échelle ( 1,1 );
+}
+
+
+
+/ * []
+-------------------------------------------------- ---------
+* /
+. bo-cir { rayon de la frontière : 50 % ;}
+
+. of-hidden { débordement : caché;}
+
+. visible-false { visibilité : caché;}
+. visible-true { visibilité : visible;}
+
+
+
+
+/*[ Transition ]
+-------------------------------------------------- ---------
+* /
+. trans-0-1 {
+	-webkit-transition : tous les 0,1 s ;
+    -o-transition : tous les 0,1 s ;
+    -moz-transition : tous les 0,1 s ;
+    transition : tous 0,1 s ;
+}
+. trans-0-2 {
+	-webkit-transition : tous les 0,2 s ;
+    -o-transition : tous les 0,2 s ;
+    -moz-transition : tous les 0,2 s ;
+    transition : tous les 0,2 s ;
+}
+. trans-0-3 {
+	-webkit-transition : tous les 0,3 s ;
+    -o-transition : tous les 0,3 s ;
+    -moz-transition : tous les 0,3 s ;
+    transition : tous les 0,3 s ;
+}
+. trans-0-4 {
+	-webkit-transition : tous les 0,4 s ;
+    -o-transition : tous les 0,4 s ;
+    -moz-transition : tous les 0,4 s ;
+    transition : tous 0,4 s ;
+}
+. trans-0-5 {
+	-webkit-transition : tous les 0,5 s ;
+    -o-transition : tous les 0,5 s ;
+    -moz-transition : tous les 0,5 s ;
+    transition : toutes les 0,5 s ;
+}
+. trans-0-6 {
+	-webkit-transition : tous les 0,6 s ;
+    -o-transition : tous les 0,6 s ;
+    -moz-transition : tous les 0,6 s ;
+    transition : tous les 0,6 s ;
+}
+. trans-0-9 {
+	-webkit-transition : tous les 0,9 s ;
+    -o-transition : tous les 0,9 s ;
+    -moz-transition : tous les 0,9 s ;
+    transition : tous les 0,9 s ;
+}
+. trans-1-0 {
+	-webkit-transition : toutes les 1 s ;
+    -o-transition : toutes les 1 s ;
+    -moz-transition : toutes les 1 s ;
+    transition : toutes les 1 s ;
+}
+
+
+
+/*[ Disposition ]
+//////////////////////////////////////////////////// /////////
+* /
+
+/ * [Flex]
+-------------------------------------------------- ---------
+* /
+/ * ------------------------------------ * /
+. flex-w {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-wrap : enveloppe;
+	-moz-flex-wrap : enveloppe;
+	-ms-flex-wrap : enveloppe;
+	-o-flex-wrap : enveloppe;
+	flex-wrap : enveloppement;
+}
+
+/ * ------------------------------------ * /
+. flex-l {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : flex-start;
+}
+
+. flex-r {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : flex-end;
+}
+
+. flex-c {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : centre;
+}
+
+. flex-sa {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : espace autour;
+}
+
+. flex-sb {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : espace entre;
+}
+
+/ * ------------------------------------ * /
+. flex-t {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-ms-align-items : flex-start;
+	align-items : flex-start;
+}
+
+. flex-b {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-ms-align-items : flex-end;
+	align-items : flex-end;
+}
+
+. flex-m {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-str {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-ms-align-items : étirer;
+	align-items : étirer;
+}
+
+/ * ------------------------------------ * /
+. flex-row {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : ligne;
+	-moz-flex-direction : ligne;
+	-ms-flex-direction : ligne;
+	-o-flex-direction : ligne;
+	flex-direction : ligne;
+}
+
+. flex-row-rev {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : ligne-inverse;
+	-moz-flex-direction : ligne-inverse;
+	-ms-flex-direction : ligne-inverse;
+	-o-flex-direction : ligne-inverse;
+	flex-direction : ligne-inverse;
+}
+
+. flex-col {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+}
+
+. flex-col-rev {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne-inverse;
+	-moz-flex-direction : colonne-inverse;
+	-ms-flex-direction : colonne-inverse;
+	-o-flex-direction : colonne-inverse;
+	flex-direction : colonne-inverse;
+}
+
+/ * ------------------------------------ * /
+. flex-cm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : centre;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-ct {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : centre;
+	-ms-align-items : flex-start;
+	align-items : flex-start;
+}
+
+. flex-cb {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : centre;
+	-ms-align-items : flex-end;
+	align-items : flex-end;
+}
+
+. flex-c-str {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : centre;
+	-ms-align-items : étirer;
+	align-items : étirer;
+}
+
+. flex-lm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : flex-start;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-rm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : flex-end;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-sa-m {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : espace autour;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-sb-m {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	justify-content : espace entre;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+/ * ------------------------------------ * /
+. flex-col-l {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : flex-start;
+	align-items : flex-start;
+}
+
+. flex-col-r {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : flex-end;
+	align-items : flex-end;
+}
+
+. flex-col-c {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-col-lm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : flex-start;
+	align-items : flex-start;
+	justify-content : centre;
+}
+
+. flex-col-rm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : flex-end;
+	align-items : flex-end;
+	justify-content : centre;
+}
+
+. flex-col-cm {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : centre;
+	align-items : centre;
+	justify-content : centre;
+}
+
+. flex-col-str {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	-ms-align-items : étirer;
+	align-items : étirer;
+}
+
+. flex-col-sb {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne;
+	-moz-flex-direction : colonne;
+	-ms-flex-direction : colonne;
+	-o-flex-direction : colonne;
+	flex-direction : colonne;
+	justify-content : espace entre;
+}
+
+/ * ------------------------------------ * /
+. flex-col-rev-l {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne-inverse;
+	-moz-flex-direction : colonne-inverse;
+	-ms-flex-direction : colonne-inverse;
+	-o-flex-direction : colonne-inverse;
+	flex-direction : colonne-inverse;
+	-ms-align-items : flex-start;
+	align-items : flex-start;
+}
+
+. flex-col-rev-r {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne-inverse;
+	-moz-flex-direction : colonne-inverse;
+	-ms-flex-direction : colonne-inverse;
+	-o-flex-direction : colonne-inverse;
+	flex-direction : colonne-inverse;
+	-ms-align-items : flex-end;
+	align-items : flex-end;
+}
+
+. flex-col-rev-c {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne-inverse;
+	-moz-flex-direction : colonne-inverse;
+	-ms-flex-direction : colonne-inverse;
+	-o-flex-direction : colonne-inverse;
+	flex-direction : colonne-inverse;
+	-ms-align-items : centre;
+	align-items : centre;
+}
+
+. flex-col-rev-str {
+	affichage : -webkit-box;
+	affichage : -webkit-flex;
+	affichage : -moz-box;
+	affichage : -ms-flexbox;
+	affichage : flex;
+	-webkit-flex-direction : colonne-inverse;
+	-moz-flex-direction : colonne-inverse;
+	-ms-flex-direction : colonne-inverse;
+	-o-flex-direction : colonne-inverse;
+	flex-direction : colonne-inverse;
+	-ms-align-items : étirer;
+	align-items : étirer;
+}
+
+
+/ * [Absolu]
+-------------------------------------------------- ---------
+* /
+. ab-cm {
+	position : absolue;
+	haut : 50 % ;
+	gauche : 50 % ;
+	-webkit-transform : traduire ( -50 % ,  -50 % );
+  	-moz-transform : traduire ( -50 % ,  -50 % );
+  	-ms-transform : traduire ( -50 % ,  -50 % );
+  	-o-transform : traduire ( -50 % ,  -50 % );
+	transformer : traduire ( -50 % ,  -50 % );
+}
+
+. ab-ct {
+	position : absolue;
+	haut : 0 px ;
+	gauche : 50 % ;
+	-webkit-transform : translateX ( -50 % );
+  	-moz-transform : translateX ( -50 % );
+  	-ms-transform : translateX ( -50 % );
+  	-o-transform : translateX ( -50 % );
+	transformer : translateX ( -50 % );
+}
+
+. ab-cb {
+	position : absolue;
+	bas : 0 px ;
+	gauche : 50 % ;
+	-webkit-transform : translateX ( -50 % );
+  	-moz-transform : translateX ( -50 % );
+  	-ms-transform : translateX ( -50 % );
+  	-o-transform : translateX ( -50 % );
+	transformer : translateX ( -50 % );
+}
+
+. ab-lm {
+	position : absolue;
+	gauche : 0 px ;
+	haut : 50 % ;
+	-webkit-transform : translateY ( -50 % );
+  	-moz-transform : translateY ( -50 % );
+  	-ms-transform : translateY ( -50 % );
+  	-o-transform : translateY ( -50 % );
+	transformer : translateY ( -50 % );
+}
+
+. ab-rm {
+	position : absolue;
+	à droite : 0 px ;
+	haut : 50 % ;
+	-webkit-transform : translateY ( -50 % );
+  	-moz-transform : translateY ( -50 % );
+  	-ms-transform : translateY ( -50 % );
+  	-o-transform : translateY ( -50 % );
+	transformer : translateY ( -50 % );
+}
+
+. ab-tl {
+	position : absolue;
+	gauche : 0 px ;
+	haut : 0 px ;
+}
+
+. ab-tr {
+	position : absolue;
+	à droite : 0 px ;
+	haut : 0 px ;
+}
+
+. ab-bl {
+	position : absolue;
+	gauche : 0 px ;
+	bas : 0 px ;
+}
+
+. ab-br {
+	position : absolue;
+	à droite : 0 px ;
+	bas : 0 px ;
+}
+ */

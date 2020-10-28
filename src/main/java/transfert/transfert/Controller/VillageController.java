@@ -16,7 +16,7 @@ public class VillageController {
     @GetMapping("/home")
     public String index(){
         Village village=new Village();
-        village.setNom("Diamweli");
+        village.setNom("Mbodjene");
         villageRepos.save(village);
         return "village/index";
     }
