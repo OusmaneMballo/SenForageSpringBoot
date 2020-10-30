@@ -2,6 +2,7 @@ package transfert.transfert.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,10 +18,8 @@ public class VillageController {
     @Autowired
     VillageRepository villageRepos;
     @GetMapping("/home")
-    public String index(){
-       /* Village village=new Village();
-        village.setNom("Mbodjene");
-        villageRepos.save(village);*/
+    public String index(Model model){
+        model.addAttribute("villages", villageRepos.findAll());
         return "village/index";
     }
 
@@ -35,4 +34,6 @@ public class VillageController {
         }
         return "redirect:/village/home";
     }
+
+
 }
