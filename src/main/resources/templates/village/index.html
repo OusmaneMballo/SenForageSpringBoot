@@ -15,7 +15,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
-                    <form method="post" action="">
+                    <form method="post" th:action="@{/village/ajout}" th:object="${village}">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="prenom_nom">Nom du village</label>
