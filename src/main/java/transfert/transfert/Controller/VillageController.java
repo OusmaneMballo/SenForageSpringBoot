@@ -15,9 +15,9 @@ public class VillageController {
     VillageRepository villageRepos;
     @GetMapping("/home")
     public String index(){
-        Village village=new Village();
+       /* Village village=new Village();
         village.setNom("Mbodjene");
-        villageRepos.save(village);
+        villageRepos.save(village);*/
         return "village/index";
     }
 }
