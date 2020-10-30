@@ -8,7 +8,60 @@
 </head>
 <body>
 <div layout:fragment="content">
-    Village Body...
+    <div class="card text-center">
+        <div class="card-header">
+            Espace village
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <form method="post" action="">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="prenom_nom">Nom du village</label>
+                                <input type="text" class="form-control" id="prenom_nom" name="nom" placeholder="Nom du village">
+                            </div>
+                        </div>
+                        <input type="text" hidden name="action" value="add">
+                        <div class="form-row">
+                            <button type="submit" class="btn btn-primary">Ajouter</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Nom Village</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                       <!-- <c:forEach items="${villages}" var="village">
+                            <tr>
+                                <th scope="col">${village.nom}</th>
+                                <th scope="col">
+                                    <a href="<c:url value="village"></c:url>">
+                                    <button type="button" class="btn btn-outline-info">Details</button>
+                                    </a>
+                                    <a href="<c:url value="village"></c:url>">
+                                    <button type="button" class="btn btn-outline-warning">Edit</button>
+                                    </a>
+                                    <a href="<c:url value="village"></c:url>">
+                                    <button type="button" class="btn btn-outline-danger">Supprimer</button>
+                                    </a>
+                                </th>
+                            </tr>
+                        </c:forEach>-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            &lt;/mballoS&gt;  Developpeur Java Php full-stack, Integrateur solutions CLOUD
+        </div>
+    </div>
 </div>
 </body>
 </html>
