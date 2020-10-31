@@ -31,13 +31,13 @@ public class ClientController {
     }
 
     @PostMapping("/ajout")
-    public String add(@Validated Client client, int id){
+    public String add(@Validated Client client, String village){
 
         try{
-            /*if(!result.hasErrors()){
-
-            }*/
-            clientRepos.save(client);
+            if(!village.isEmpty()){
+                client.setVillage(villageRepos.findById(Integer.parseInt(village)));
+                clientRepos.save(client);
+            }
         }catch(Exception exception){
             exception.getStackTrace();
         }
