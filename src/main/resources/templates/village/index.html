@@ -4,7 +4,6 @@
       layout:decorate="~{layout/fragment.html}">
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Village | Home</title>
 </head>
@@ -24,7 +23,6 @@
                                 <input type="text" class="form-control" id="prenom_nom" name="nom" placeholder="Nom du village">
                             </div>
                         </div>
-                        <input type="text" hidden name="action" value="add">
                         <div class="form-row">
                             <button type="submit" class="btn btn-primary">Ajouter</button>
                         </div>
@@ -42,7 +40,7 @@
                             <tr th:each="village:${villages}">
                                 <th scope="col" th:text="${village.nom}"></th>
                                 <th scope="col">
-                                        <a th:href="@{/village/edit/{id}(id = ${village.id})}" id="detail" class="edit">
+                                        <a th:href="@{/village/detail/{id}(id = ${village.id})}" id="detail" class="edit">
                                             <button class="btn btn-outline-info btn-sm" data-title="detail" data-toggle="modal">
                                                 <span class="glyphicon glyphicon-pencil">Details</span>
                                             </button>
@@ -52,7 +50,7 @@
                                                 <span class="glyphicon glyphicon-pencil">Edit</span>
                                             </button>
                                         </a>
-                                        <a th:href="@{/village/edit/{id}(id = ${village.id})}" id="suprimer">
+                                        <a th:href="@{/village/delete/{id}(id = ${village.id})}" id="suprimer">
                                             <button class="btn btn-outline-danger btn-sm" data-title="Delete" data-toggle="modal" data-target="#delete" >
                                                 <span class="glyphicon glyphicon-trash">Delete</span>
                                             </button>
