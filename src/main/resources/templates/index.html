@@ -39,7 +39,7 @@
 						Login
 					</span>
                     <div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-                        <input class="input100" type="text" name="login"/>
+                        <input class="input100" type="text" name="username"/>
                         <span class="focus-input100"></span>
                     </div>
 
@@ -74,7 +74,7 @@
                             Login
                         </button>
                     </div>
-
+                    <input type="text" value="${_csrf.token}" name="${_csrf.parameterName}" hidden=""/>
                 </form>
             </div>
         </div>
